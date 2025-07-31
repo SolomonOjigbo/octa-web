@@ -196,7 +196,7 @@ const CollapsedSidebar = () => {
                   onClick={handleSelectClick2}
                   className={isActive2 ? "subdrop" : ""}
                 >
-                  <span>Application</span>
+                  <span>CRM Communication</span>
                   <span className="menu-arrow" />
                 </Link>
                 <ul style={{ display: isActive2 ? "block" : "none" }}>

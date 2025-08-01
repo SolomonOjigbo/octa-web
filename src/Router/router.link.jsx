@@ -157,7 +157,7 @@ import Signin from "../feature-module/pages/login/signin";
 import SigninTwo from "../feature-module/pages/login/signinTwo";
 import SigninThree from "../feature-module/pages/login/signinThree";
 import RegisterTwo from "../feature-module/pages/register/registerTwo";
-import Register from "../feature-module/pages/register/register";
+import Register from "../feature-module/pages/register/registerOne";
 import RegisterThree from "../feature-module/pages/register/registerThree";
 import Forgotpassword from "../feature-module/pages/forgotpassword/forgotpassword";
 import ForgotpasswordTwo from "../feature-module/pages/forgotpassword/forgotpasswordTwo";
@@ -194,6 +194,7 @@ import CurrencySettings from "../feature-module/settings/financialsettings/curre
 import WareHouses from "../core/modals/peoples/warehouses";
 import Coupons from "../feature-module/coupons/coupons";
 import { all_routes } from "./all_routes";
+import TenantOnboardingForm from "../feature-module/pages/register/register";
 export const publicRoutes = [
   {
     id: 1,
@@ -1430,7 +1431,7 @@ export const pagesRoute = [
     id: 4,
     path: routes.register,
     name: "register",
-    element: <Register />,
+    element: <TenantOnboardingForm />,
     route: Route,
   },
   {

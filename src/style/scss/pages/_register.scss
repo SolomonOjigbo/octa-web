@@ -1,0 +1,39 @@
+/* Onboarding Form Styles */
+.onboarding-container {
+  margin-top: 20px;
+}
+
+.onboarding-steps {
+  margin-bottom: 30px;
+}
+
+.onboarding-form .steps-content {
+  min-height: 300px;
+  padding: 20px 0;
+}
+
+.onboarding-form .steps-action {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.onboarding-form .form-section {
+  margin-bottom: 20px;
+}
+
+.onboarding-form .form-section h3 {
+  margin-bottom: 15px;
+  color: #1890ff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .onboarding-form .steps-content {
+    min-height: auto;
+  }
+  
+  .onboarding-steps {
+    display: none;
+  }
+}
